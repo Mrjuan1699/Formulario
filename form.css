@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.formulario {
+    width: 400px;
+    height: 260px;
+    background: #333;
+    margin-left: 10%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.formulario form h3 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario .btn-enviar {
+    margin-top: 20px;
+    width: 140px;
+    height: 30px;
+    background: #0275d8;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 30%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formulario .btn-enviar:active {
+    background: #c0c0c0;
+}
