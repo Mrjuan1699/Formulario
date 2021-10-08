@@ -15,7 +15,7 @@
 <body>
 
     <section class="formulario">
-        <form action="insertar.php" method="POST" id="formulario_datos">
+        <form action="insertar_datos.php" method="POST" id="formulario_datos">
             <h3>Formulario de registro</h3>
             <input type="text" class="form-control" name="nombre" placeholder="Ingresa tu nombre">
             <input type="text" class="form-control mt-3" name="apellido" placeholder="Ingresa tu apellido">

@@ -3,7 +3,7 @@ $(document).ready(function() {
         var datos = $('#formulario_datos').serialize();
         $.ajax({
             type: "POST",
-            url: "insertar.php",
+            url: "insertar_datos.php",
             data: datos,
             success: function(j) {
                 if (j == 1) {
